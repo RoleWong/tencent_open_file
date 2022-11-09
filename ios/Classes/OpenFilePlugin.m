@@ -3,7 +3,7 @@
 @interface OpenFilePlugin ()<UIDocumentInteractionControllerDelegate>
 @end
 
-static NSString *const CHANNEL_NAME = @"open_file";
+static NSString *const CHANNEL_NAME = @"tencent_open_file";
 
 @implementation OpenFilePlugin{
     FlutterResult _result;
@@ -31,7 +31,7 @@ static NSString *const CHANNEL_NAME = @"open_file";
 }
 
 - (void)handleMethodCall:(FlutterMethodCall*)call result:(FlutterResult)result {
-    if ([@"open_file" isEqualToString:call.method]) {
+    if ([@"tencent_open_file" isEqualToString:call.method]) {
         _result = result;
         NSString *msg = call.arguments[@"file_path"];
         if(msg==nil){

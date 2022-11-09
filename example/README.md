@@ -1,14 +1,14 @@
-# open_file
+# tencent_open_file
 
 A plug-in that can open files for android
 
 ## Usage
 
-To use this plugin, add [open_file](https://pub.dartlang.org/packages/open_file#-installing-tab-)as a dependency in your pubspec.yaml file.
+To use this plugin, add [tencent_open_file](https://pub.dartlang.org/packages/tencent_open_file#-installing-tab-)as a dependency in your pubspec.yaml file.
 
 ## Example
 ```
-import 'package:open_file/open_file.dart';
+import 'package:tencent_open_file/tencent_open_file.dart';
 
 OpenFile.open("/sdcard/text.txt");
 ```

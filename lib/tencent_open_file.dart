@@ -1,4 +1,4 @@
-library open_file;
+library tencent_open_file;
 
 export 'src/common/open_result.dart';
 export 'src/platform/open_file.dart'
