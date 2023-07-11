@@ -3,5 +3,7 @@
 
 - 解决了在Flutter多引擎和混合开发情况下，Native丢失Engine问题。
 
+- remove REQUEST_INSTALL_PACKAGES permission.
+
 # 外部开发者请使用原作者的包，[open_file](https://pub.dev/packages/open_file)，我们也向原作者表示感谢。
 

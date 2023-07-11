@@ -1,6 +1,6 @@
 name: tencent_open_file
 description: A plug-in that can call native APP to open files with string result in flutter, support iOS(UTI) / android(intent) / PC(ffi) / web(dart:html)
-version: 4.0.10
+version: 4.0.11
 homepage: https://github.com/crazecoder/tencent_open_file
 
 dependencies:
